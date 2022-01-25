@@ -46,23 +46,23 @@
 --------------------------------------------------------------------------------------------------------------- */
 
 
-.btn, .btn.inverse:hover{color:#00CC99; background-color:0%; border-color:0%;}
+.btn, .btn.inverse:hover{color:#00FFCC;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background:rgba(0,0,0,.55);}
-.imgover, .imgover:hover::after{color:0%;}
+.imgover, .imgover:hover::after
 
 
 
 
 /* Button */
-.ringcon{color:#00CC99; background-color:;}
+.ringcon{color:#00FFCC;}
 .ringcon::before{background-color:; border-color:rgba(255,255,255,.3);}
-.ringcon:hover{background-color:;}
-.ringcon:hover::before{background-color:;}
+.ringcon:hover
+.ringcon:hover::before
 
 .overview a{color:inherit;}
-.overview article:hover a{color:0%;}
+.overview article:hover
 
 
 
