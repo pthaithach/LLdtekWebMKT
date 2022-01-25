@@ -46,11 +46,11 @@
 --------------------------------------------------------------------------------------------------------------- */
 
 
-.btn, .btn.inverse:hover{color:#00CC99; background-color:; border-color:;}
+.btn, .btn.inverse:hover{color:#00CC99; background-color:0%; border-color:0%;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background:rgba(0,0,0,.55);}
-.imgover, .imgover:hover::after{color:;}
+.imgover, .imgover:hover::after{color:0%;}
 
 
 
@@ -62,7 +62,7 @@
 .ringcon:hover::before{background-color:;}
 
 .overview a{color:inherit;}
-.overview article:hover a{color:;}
+.overview article:hover a{color:0%;}
 
 
 
