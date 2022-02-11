@@ -38,7 +38,7 @@
 .overview article .heading, .overview article p{margin-bottom:20px;}
 
 
---------------------------------------------------------------------------------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------------- *!*/
 *, *::before, *::after{transition:all .3s ease-in-out;}
 #mainav form *{transition:none !important;}
 
@@ -57,7 +57,7 @@
 
 /* Button */
 .ringcon{color:#006600;}
-.ringcon::before{background-color:; border-color:rgba(255,255,255,.3);}
+.ringcon::before{ border-color:rgba(255,255,255,.3);}
 .ringcon:hover
 .ringcon:hover::before
 
@@ -67,7 +67,7 @@
 
 
 
---------------------------------------------------------------------------------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------------- *!*/
 @media screen and (min-width:1140px){
 	.hoc{max-width:1140px;}
 }
@@ -136,4 +136,176 @@
 
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
+}
+
+
+
+/*H edit*/
+.container.padding-container{
+	padding: 0 !important;
+}
+.navbar-padding{
+	padding: 15px;
+}
+.active-header{
+	background-color: white !important;
+}
+.nav-background{
+	margin-bottom: 0;
+}
+.nav-background, .nav-background .container {
+	background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+.navbar-default{
+	border-color: transparent;
+}
+#header_frame .navbar-default{
+	border-color: transparent;
+	box-shadow: 0 3px 5px #aaaaaa;
+}
+.tm-site-title, .tm-site-description{
+	color: white;
+}
+.navbar{
+	border: none;
+}
+.tm-gallery-page{
+	/*margin: 0 15px;*/
+}
+.tm-adress th{
+	text-align: center;
+}
+
+
+@media screen and (max-width: 450px){
+	/*header*/
+	.tm-header-inner .tm-site-description{
+		margin-bottom: 0;
+	}
+	.tm-site-title{
+		color: white;
+		margin-top: 5px;
+		/*font-size: 1.5em;*/
+		font-size: 20px;
+	}
+	.tm-header-inner .tm-site-description{
+		display: none;
+	}
+	.tm-site-text-box{
+		padding-top: 3px;
+	}
+	.navbar-default .navbar-nav >li>a.active{
+		color: #2F956D;
+		border-bottom: none;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		border-color: #888;
+	}
+	.navbar-nav{
+		margin: 15px 0;
+	}
+	.navbar-default .navbar-nav>li>a{
+		color: black;
+	}
+	.navbar-header{
+		background-color: black !important;
+	}
+	.navbar-padding{
+		padding: 0 15px 0 0;
+	}
+	.nav-background, .nav-background .container {
+		background-color: black;
+	}
+	.tm-header .container{
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	.navbar{
+		border-radius: 0;
+		min-height: 0;
+	}
+	.tm-site-logo{
+		width: 40px;
+		height: 40px;
+	}
+	.navbar-collapse{
+		background: black;
+	}
+	.navbar-default .navbar-nav >li>a{
+		color: white;
+	}
+	.navbar-toggle{
+		margin-bottom: 10px;
+		background: white;
+	}
+	.container>.navbar-header{
+		margin-left: 0;
+		padding-left: 15px;
+	}
+}
+@media screen and (min-width: 576px){
+	/*header*/
+	.tm-site-logo{
+		float: left;
+		margin-top: 0;
+	}
+	.tm-header-inner .tm-site-description{
+		margin-bottom: 0;
+	}
+	.tm-site-title{
+		color: white;
+		font-size: 25px;
+	}
+	.tm-header-inner .tm-site-description{
+		color: white;
+		font-size: 15px;
+	}
+	.navbar-header{
+		background-color: transparent;
+	}
+	.nav-background, .nav-background .container {
+		background-color: transparent;
+	}
+	.tm-header .container{
+		/*position: absolute;*/
+		/*bottom: 0;*/
+		/*left: 0;*/
+	}
+	.navbar{
+		border-radius: 0;
+		min-height: 0;
+	}
+	.tm-site-logo{
+		width: 40px;
+		height: 40px;
+	}
+}
+@media screen and (min-width: 768px){
+	.tm-site-logo{
+		width: 50px;
+		height: 50px;
+	}
+	.tm-header-inner{
+		padding: 40px 15px;
+	}
+}
+@media screen and (min-width: 992px){
+	.tm-site-logo{
+		width: 60px;
+		height: 60px;
+	}
+	.tm-header-inner{
+		padding: 40px 50px;
+	}
+	.tm-site-title{
+		color: white;
+		font-size: 30px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		font-size: 17px;
+	}
 }

@@ -358,8 +358,10 @@ nav.small {
 }
 .twitter_tweet h5{
     font-weight: 300;
-    line-height: 20px;
-    color: rgba(255,255,255,0.77);
+    line-height: 1.5 ; /*H edit*/
+    /*color: rgba(255,255,255,0.77);*/
+    color: black;
+
 }
 .twitter_tweet i{
     font-size: 30px;

@@ -476,9 +476,13 @@ a:hover {
     padding-bottom: 15px; }
     #navbar-header .dropdown-menu {
       box-shadow: none !important; }
-    #navbar-header .navbar-collapse {
-      margin-top: 15px;
-      background: #fff !important; }
+  #navbar-header .navbar-collapse {
+    margin-top: 15px;
+    background: #fff !important;
+    /*H edit*/
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 15px;
+  }
   .only-mobile {
     display: block !important; }
   .only-desktop {

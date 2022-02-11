@@ -67,7 +67,7 @@
 
 
 
---------------------------------------------------------------------------------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------------- *!*/
 @media screen and (min-width:1140px){
 	.hoc{max-width:1140px;}
 }
@@ -121,7 +121,10 @@
 
 	#latest article{max-width:348px;}/* Change it to suit your needs - default is the one_third grid width */
 
-	#footer{padding-bottom:50px;}/* Not required, just looks a little better */
+	#footer{
+        /*padding-bottom:50px;*/
+        padding-bottom: 0;
+    }/* Not required, just looks a little better */
 }
 
 
@@ -136,4 +139,92 @@
 
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
+}
+
+/*H edit*/
+
+.testi-carousel{
+    color:#00bc95;
+}
+.intro-text{
+    padding: 0 15px;
+
+}
+
+@media screen and (max-width: 576px)
+{
+    .container>.navbar-header{
+        /*margin-right: 0;*/
+    }
+    .container.navbar-padding{
+        padding: 0 15px !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .navbar-custom .navbar-nav>li>a{
+        color: black;
+    }
+}
+@media (width: 768px)
+{
+    .navbar-custom .navbar-brand, .navbar-custom .navbar-brand:hover{
+        color: black;
+        padding: 15px;
+    }
+    .navbar-custom{
+        background: white;
+    }
+    .container.navbar-padding{
+        padding: 0 15px !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .navbar-header{
+        float: none;
+    }
+    .navbar-nav{
+        /*display: inline-block;*/
+    }
+    .navbar-toggle{
+        display: block;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav{
+        width: 100%;
+    }
+    .navbar-right{
+        margin-right: 0;
+    }
+    .navbar-default .navbar-collapse{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .collapse.in {
+        display: block !important;
+        visibility: visible !important;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #e7e7e7;
+    }
+}
+@media ( min-width: 769px){
+    .navbar-nav>li {
+        float: left;
+    }
+    .container.navbar-padding{
+        padding: 0 15px !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .navbar-custom .navbar-nav>li>a{
+        color: white !important;
+    }
+    .navbar-custom.small .navbar-nav>li>a{
+        color: black !important;
+    }
 }

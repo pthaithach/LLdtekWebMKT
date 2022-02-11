@@ -722,6 +722,21 @@ p.white-clrf {
     width: 22.8%;
     background: #fff;
     padding: 1em 1em 2em;
+    margin: 0 15px;                 /*H edit*/
+}
+.pricing-col { /*H edit*/
+    background: #fff;
+    padding: 1em 1em 2em;
+}
+
+/*H edit*/
+.pricing-col h4 {
+    font-size: 2.3em;
+    font-weight: 500;
+    color: #f14156;
+    position: relative;
+    margin-top: 1em;
+    text-align: center;
 }
 .w3ls-top {
     position: relative;
@@ -1199,6 +1214,10 @@ h3.agileits-icons-title {
 	.icon-box {
 		margin: 0;
 	}
+    /*H edit*/
+    .pricing-col{
+        margin: 30px 0;
+    }
 }
 @media (max-width: 640px){
 	.icon-box {

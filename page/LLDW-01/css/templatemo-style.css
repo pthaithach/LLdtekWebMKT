@@ -11,6 +11,10 @@ ul, nav, body, h1, h2, h4, h6, p, figure {
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6{
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 a, button { transition: all 0.3s ease; }
 
 /* Bootstrap grid system  */
@@ -117,7 +121,8 @@ html {
 
 .tm-btn {
   display: inline-block;
-  font-size: 1rem;
+  /*font-size: 1rem;*/
+  font-size: 17px; /*H edit*/
   width: auto;
   padding: 10px 30px;
   text-decoration: none;
@@ -155,6 +160,7 @@ html {
 .tm-btn-success:hover,
 .tm-btn-success:focus {
   background-color: #1d6e46;
+  text-decoration: none;
 }
 
 .tm-btn-danger {
@@ -191,10 +197,11 @@ html {
   max-width: 100%;
   height: auto;
 }
-
-body {
+body, a{
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 17px;
+}
+body {
   background-color: #ccc;
   overflow-x: hidden;
 }
@@ -850,4 +857,160 @@ address {
 
 .panel p {
   padding: 5px 20px 30px;
+}
+
+
+/*H edit*/
+.container.padding-container{
+  padding: 0 !important;
+}
+.navbar-padding{
+  padding: 15px;
+}
+.active-header{
+  background-color: white !important;
+}
+.nav-background{
+  margin-bottom: 0;
+}
+.nav-background, .nav-background .container {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a{
+  color: white;
+  font-size: 14px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.navbar-default{
+  border-color: transparent;
+}
+#header_frame .navbar-default{
+  border-color: transparent;
+  box-shadow: 0 3px 5px #aaaaaa;
+}
+.tm-site-title, .tm-header-inner .tm-site-description{
+  color: white;
+}
+.navbar{
+  border: none;
+}
+.tm-gallery{
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (max-width: 450px){
+  /*header*/
+  .tm-header-inner .tm-site-description{
+    margin-bottom: 0;
+  }
+  .tm-site-title{
+    color: white;
+    margin-top: 5px;
+  }
+  .tm-header-inner .tm-site-description{
+    display: none;
+  }
+  .tm-site-text-box{
+    padding-top: 3px;
+  }
+  .navbar-default .navbar-nav >li>a.active{
+    color: #2F956D;
+    border-bottom: none;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: #888;
+  }
+  .navbar-nav{
+    margin: 15px 0;
+  }
+  .navbar-default .navbar-nav>li>a{
+    color: black;
+  }
+  .navbar-header{
+    background-color: black !important;
+  }
+  .navbar-padding{
+    padding: 0 15px 0 0;
+  }
+  .nav-background, .nav-background .container {
+    background-color: black;
+  }
+  .tm-header .container{
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navbar{
+    border-radius: 0;
+    min-height: 0;
+  }
+  .tm-site-logo{
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-collapse{
+    background: black;
+  }
+  .navbar-default .navbar-nav >li>a{
+    color: white;
+  }
+  .navbar-toggle{
+    margin-bottom: 10px;
+    background: white;
+  }
+  .container>.navbar-header{
+    margin-left: 0;
+    padding-left: 15px;
+  }
+}
+@media screen and (min-width: 576px){
+  /*header*/
+  .tm-site-logo{
+    float: left;
+    /*margin-top: 10px;*/
+  }
+  .tm-header-inner .tm-site-description{
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+  .tm-site-title, .tm-site-description{
+    color: white;
+  }
+  .navbar-header{
+    background-color: transparent;
+  }
+  .nav-background, .nav-background .container {
+    background-color: transparent;
+  }
+  .tm-header .container{
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+  }
+  .navbar{
+    border-radius: 0;
+    min-height: 0;
+  }
+  .tm-site-logo{
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 768px){
+  .tm-site-logo{
+    width: 50px;
+    height: 50px;
+  }
+  .tm-header-inner{
+    padding: 40px 15px;
+  }
+}
+@media screen and (min-width: 992px){
+  .tm-site-logo{
+    width: 60px;
+    height: 60px;
+  }
+  .tm-header-inner{
+    padding: 40px 50px;
+  }
 }

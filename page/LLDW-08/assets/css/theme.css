@@ -954,6 +954,20 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @media (min-width: 768px) {
+
+  .card-service {
+    /*width: 260px;*/
+    width: 220px; /*H edit*/
+  }
+  .circle-shape {
+    width: 50px; /*H edit*/
+    height: 50px;
+    line-height: 54px;
+  }
+}
+
+
+@media (min-width: 768px) {
   .navbar-expand-md .navbar-nav {
     margin-top: 0;
     border-top: none;
@@ -979,6 +993,8 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar-expand-lg .navbar-nav {
     align-items: center;
   }
+  .card-service {
+    width: 260px; /*H edit*/
 }
 
 @media (min-width: 1200px) {
@@ -1272,15 +1288,19 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card-service p {
   margin-top: 10px;
-  margin-left: 32px;
+  /*margin-left: 32px;*/
+  margin-left: 15px; /*H edit*/
 }
 
 .circle-shape {
   flex-shrink: 0;
   padding: 0;
-  width: 60px;
-  height: 60px;
-  line-height: 64px;
+  /*width: 60px;*/
+  /*height: 60px;*/
+  /*line-height: 64px;*/
+  width: 50px; /*H edit*/
+  height: 50px;
+  line-height: 54px;
   border-radius: 50%;
   text-align: center;
   font-size: 32px;
@@ -1374,11 +1394,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 15px 20px;
 }
 
-@media (min-width: 768px) {
-  .card-service {
-    width: 260px;
-  }
-}
 
 
 .card-blog {
