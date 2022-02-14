@@ -9,7 +9,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #000;
-  background-color: #f4ede5; }
+  background-color: #ffffff; }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', sans-serif;
@@ -82,7 +82,7 @@ a:hover {
   height: 50px; }
 
 .nav-link {
-  color: #000; }
+  color: #F34949; }
 
 #navbar-header {
   height: 100px; }
@@ -94,7 +94,7 @@ a:hover {
 
 @media (min-width: 1024px) {
   #navbar-header .navbar-nav {
-    width: 50%; }
+    width: 100%; }
   #navbar-header .dropdown .dropdown-menu {
     display: block;
     opacity: 0;
