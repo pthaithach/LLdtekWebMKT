@@ -114,7 +114,7 @@ nav.navbar.bootsnav {
     background-color: transparent;
     border-bottom: transparent;
 }
-.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #fff;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
+.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #ffffff;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
@@ -156,12 +156,14 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 /*.nav li*/
 
 /*.menu-ui-design*/
-.menu-ui-design{overflow-y:scroll;height: 350px;}
+.menu-ui-design{overflow-y:scroll;height: 350px;background-color: #ffffff;}
 .menu-ui-design::-webkit-scrollbar {
     width:5px;
+    background-color: #ffffff;
 }
 .menu-ui-design::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 8px #000;
+    -webkit-box-shadow: inset 0 0 8px #ffffff;
+    background-color: #ffffff;
 }
 .menu-ui-design::-webkit-scrollbar-thumb {
   background-color: #e99c2e;
@@ -220,7 +222,7 @@ ul.cart-list > li img {
 }
 .s-cate::-webkit-scrollbar {width:5px;}
 .s-cate::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 8px #000;}
-.s-cate::-webkit-scrollbar-thumb {background-color: #e99c2e;}
+.s-cate::-webkit-scrollbar-thumb {background-color: #ffffff;}
 
 .single-cart-list {
     position: relative;

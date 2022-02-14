@@ -43,6 +43,9 @@
 }/*max-width:991px*/
 
 @media screen and (max-width:768px){
+	.main-menu .nav li span.badge {top: 20px;right:-5px;}
+	.single-feature,.single-blog,.single-new-arrival {max-width: 270px;margin: 30px auto;}
+	.single-populer-products {max-width: 350px;margin: 30px auto;min-height: auto;padding-bottom: 30px;}
     
 }/*max-width:768px*/
 
@@ -82,6 +85,12 @@
 	.welcome-hero-txt h3,.welcome-hero-txt h4 {font-size: 24px;}
 	
 }/*max-width:400px*/
+
+@media screen and (max-width: 375px){
+	.main-menu .nav li span.badge {top: 20px;right:-5px;}
+	.single-feature,.single-blog,.single-new-arrival {max-width: 270px;margin: 30px auto;}
+	.single-populer-products {max-width: 350px;margin: 30px auto;min-height: auto;padding-bottom: 30px;
+}
 
 @media screen and (max-width:350px){
 	nav.navbar.bootsnav .navbar-toggle {margin-right: -25px;left:-10px;}

@@ -134,6 +134,7 @@ nav.bootsnav.navbar-full .navbar-collapse{
     padding: 0;
     display: none !important;
     z-index: 9;
+    background-color: #ffffff;
 }
 
 nav.bootsnav.navbar-full .navbar-collapse.in{
