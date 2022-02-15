@@ -114,7 +114,7 @@ nav.navbar.bootsnav {
     background-color: transparent;
     border-bottom: transparent;
 }
-.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #ffffff;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
+.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #F8F9FD;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
@@ -156,17 +156,17 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 /*.nav li*/
 
 /*.menu-ui-design*/
-.menu-ui-design{overflow-y:scroll;height: 350px;background-color: #ffffff;}
+.menu-ui-design{overflow-y:scroll;height: 500px;background-color: #F8F9FD;;width: 100%;}
 .menu-ui-design::-webkit-scrollbar {
-    width:5px;
-    background-color: #ffffff;
+    width:100%;
+    background-color: #F8F9FD;;
 }
 .menu-ui-design::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 8px #ffffff;
-    background-color: #ffffff;
+    -webkit-box-shadow: inset 0 0 8px #F8F9FD;;
+    background-color: #F8F9FD; width: 100%;
 }
 .menu-ui-design::-webkit-scrollbar-thumb {
-  background-color: #e99c2e;
+  background-color: #F8F9FD;
 }
 /*.menu-ui-design*/
 

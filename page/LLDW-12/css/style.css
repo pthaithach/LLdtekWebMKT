@@ -347,7 +347,7 @@ a:focus {
     }
     
     .hero .hero-text .btn {
-        padding: 12px 30px;
+        padding: 12px 20px;
         letter-spacing: 1px;
     }
 }
@@ -381,7 +381,7 @@ a:focus {
     
     .hero .hero-text .btn {
         padding: 8px 10px;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
         letter-spacing: 0;
     }
@@ -441,7 +441,11 @@ a:focus {
         font-size: 18px;
     }
 }
-
+@media (max-width: 768px){ /*H edit*/
+    .navbar-nav{
+        margin-top: 20px;
+    }
+}
 
 /*******************************/
 /******* Section Header ********/

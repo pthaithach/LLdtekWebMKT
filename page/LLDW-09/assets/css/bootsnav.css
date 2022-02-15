@@ -135,6 +135,7 @@ nav.bootsnav.navbar-full .navbar-collapse{
     display: none !important;
     z-index: 9;
     background-color: #ffffff;
+
 }
 
 nav.bootsnav.navbar-full .navbar-collapse.in{
@@ -145,10 +146,13 @@ nav.bootsnav.navbar-full .navbar-collapse .nav-full{
     overflow: auto;
 }
 
-nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu{
-    display: table-cell;
+nav.bootsnav.navbar-full .navbar-collapse .wrap-full-
+
+
+{
+    display: auto;
     vertical-align: middle;
-    background-color: #fff;
+    background-color: #ffffff;
     overflow: auto;
 }
 
@@ -796,7 +800,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.bootsnav.brand-center .navbar-collapse .col-half{
-        width: 50%;
+        width: 100%;
         float: left;
         display: block;
     }
@@ -869,7 +873,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     
     nav.bootsnav.navbar-sidebar .navbar-collapse{
         padding: 0 !important;
-        width: 260px;
+        width: 100%;
     }
 
     nav.bootsnav.navbar-sidebar ul.nav{
@@ -1380,8 +1384,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav .navbar-nav {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     
     .attr-nav{

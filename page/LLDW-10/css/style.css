@@ -347,6 +347,8 @@ a:focus {
         font-size: 15px;
         letter-spacing: 0;
     }
+
+
 }
 
 @media (max-width: 575.98px) {
@@ -961,6 +963,7 @@ a:focus {
     margin: 5px 0 0 0;
     float: left;
     display: block;
+    width: 100%; /*H edit*/
 }
 
 @media(max-width: 575.98px) {

@@ -1202,10 +1202,10 @@ h3.agileits-icons-title {
 }
 @media (max-width:768px){
 	h3.agileits-icons-title {
-		font-size: 28px;
+		font-size: 18px;
 	}
 	h3.icon-subheading {
-		font-size: 25px;
+		font-size: 18px;
 	}
 	.row {
 		margin-right: 0;
@@ -2433,12 +2433,12 @@ h6.caption {
 }
 @media screen and (max-width: 768px){
 	.portfolio-grids {
-		width: 50%;
+		width: 1000%;
 		float: left;
 	}
 	section.portfolio-agileinfo i.fa.fa-search-plus {
-		font-size: 40px;
-		padding-top: 55px;
+		font-size: 150px;
+		padding-top: 45px;
 	}
 	.mail-grid1, .agents, div#about, .banner-dott, .customer, .faq, .portfolio-agileinfo {
 		padding: 40px 0;
@@ -2447,8 +2447,8 @@ h6.caption {
     padding: 3em 0;
 }
 .about1 h5 {
-    font-size: 18px;
-    line-height: 1.5em;
+    font-size: 12px;
+    line-height: 0.5em;
 }
 a.join-wthree {
     margin-top: 0px;

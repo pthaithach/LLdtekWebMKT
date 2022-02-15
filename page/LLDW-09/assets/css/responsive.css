@@ -17,7 +17,7 @@
 }/*max-width:1199px*/
 
 @media screen and (max-width:1024px){
-	nav.navbar.bootsnav.menu-center ul.nav.navbar-center {float: none!important;margin: 0 auto;display: table;}
+	nav.navbar.bootsnav.menu-center ul.nav.navbar-center {float: none!important;margin: auto;display: table;}
 
 	.single-welcome-hero {height:768px;}
 	.single-about-img:before,.single-about-img:after{display: none;}
@@ -29,7 +29,7 @@
 
 @media screen and (max-width:992px){
 	nav.navbar.bootsnav .navbar-collapse.collapse.in {padding-bottom: 30px;}
-	nav.navbar.bootsnav.menu-center ul.nav.navbar-center {float:left;margin: 0;padding:0;}
+	nav.navbar.bootsnav.menu-center ul.nav.navbar-center {float: left; margin: 0; padding:0;}
 	nav.navbar.bootsnav .navbar-brand {padding: 25px;}
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
 	.attr-nav > ul > li > a {padding: 20px 15px;}
