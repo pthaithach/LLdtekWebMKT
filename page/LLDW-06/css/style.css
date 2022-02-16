@@ -358,7 +358,8 @@ nav.small {
 }
 .twitter_tweet h5{
     font-weight: 300;
-    line-height: 1.5 ; /*H edit*/
+    line-height: 1.5 ; /*
+     edit*/
     /*color: rgba(255,255,255,0.77);*/
     color: black;
 
@@ -442,11 +443,11 @@ footer p{
 	}
 	.navbar-custom .navbar-brand {
 		color: #000;
-		padding: 15px;
+		
 	}
 	.work-list li {
 		width: 100%;
-		display: block;
+		display: auto;
 	}
 }
 
