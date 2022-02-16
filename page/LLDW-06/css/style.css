@@ -449,6 +449,9 @@ footer p{
 		width: 100%;
 		display: auto;
 	}
+	.navbar-custom .navbar-brand, .navbar-custom .navbar-brand:hover{
+		padding: 15px;
+	}
 }
 
 /* 16 Back-to-top
