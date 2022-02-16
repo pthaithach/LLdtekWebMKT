@@ -68,6 +68,10 @@
 
 
 /*--------------------------------------------------------------------------------------------------------------- *!*/
+.navbar-collapse::-webkit-scrollbar {
+        display: inline-block;
+}
+
 @media screen and (min-width:1140px){
 	.hoc{max-width:1140px;}
 }
@@ -168,6 +172,14 @@
         color: black;
     }
 }
+
+.container.navbar-padding{
+        padding: 0 15px !important;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+
 @media (width: 767px)
 {
     .navbar-custom .navbar-brand, .navbar-custom .navbar-brand:hover{
@@ -207,11 +219,16 @@
     .collapse.in {
         display: block !important;
         visibility: visible !important;
+        overflow: hidden;
     }
+    .collapse.in::-webkit-scrollbar { 
+    display: none;  // Safari and Chrome
+}
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         border-color: #e7e7e7;
     }
 }
+
 @media (width: 768px)
 {
     .navbar-custom .navbar-brand, .navbar-custom .navbar-brand:hover{
