@@ -31,7 +31,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   :root {
-    --primary-color:        #f13a11;
+    --primary-color:        #FFA500;
     --white-color:          #ffffff;
     --dark-color:           #171819;
     --about-bg-color:       #f9f9f9;
@@ -363,7 +363,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('../images/home/banner.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -641,6 +641,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .navbar-collapse,
     .site-footer {
       text-align: center;
+      padding: center;
     }
 
     .schedule-table {

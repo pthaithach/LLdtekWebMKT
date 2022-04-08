@@ -440,6 +440,7 @@ footer p{
 @media only screen and (max-width: 767px) {
 	.navbar-custom {
 		background-color: #ffffff;
+		background-position: center;
 	}
 	.navbar-custom .navbar-brand {
 		color: #000;
@@ -545,7 +546,7 @@ ul.pattern li a {
 }
 
 ul.pattern .color1 {
-  background-color: #00bc95;
+  background-color: #EE82EE;
 }
 ul.pattern .color2 {
   background-color: #d13a7a;

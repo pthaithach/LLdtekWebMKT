@@ -19,7 +19,7 @@ h1, h2 {
   font-weight: 700; }
 
 .subheading {
-  color: #f34949; }
+  color: #FF8C00; }
 
 .bg-white {
   background-color: #fff; }
@@ -28,7 +28,7 @@ h1, h2 {
   background-color: #f7f8f9; }
 
 a {
-  color: #f34949; }
+  color: #FF8C00; }
 
 a:focus,
 button:focus {
@@ -82,13 +82,13 @@ a:hover {
   height: 50px; }
 
 .nav-link {
-  color: #F34949; }
+  color: #FF8C00; }
 
 #navbar-header {
   height: 100px; }
   #navbar-header .navbar-nav .dropdown-menu {
     border: none;
-    border-bottom: 2px solid #f34949;
+    border-bottom: 2px solid #FF8C00;
     border-radius: 0 !important;
     box-shadow: -5px 8px 20px 0px rgba(229, 16, 2, 0.15); }
 
@@ -109,8 +109,8 @@ a:hover {
 
 .btn-primary {
   display: inline-block;
-  background-color: #f34949;
-  border-color: #f34949;
+  background-color: #FF8C00;
+  border-color: #FF8C00;
   color: #fff;
   border-radius: 30px;
   padding: 9px 25px;
@@ -239,7 +239,7 @@ a:hover {
   .testi-content .testi-author {
     font-weight: 500; }
   .testi-content .testi-desc span {
-    color: #f34949;
+    color: #FF8C00;
     font-weight: bold; }
   .testi-content .owl-dots {
     position: absolute;
@@ -353,7 +353,7 @@ a:hover {
 
 /*=====  End of RESERVATION  ======*/
 /*===============================
-=            SideNav            =
+=            Sidevbarv            =
 ===============================*/
 .sidenav {
   height: 100%;
@@ -362,17 +362,29 @@ a:hover {
   z-index: 1002;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #FF8C00;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  color: #fff; }
+  color: #fff;
+    opacity: 0.95;
+}
 
 .sidenav-content {
-  padding: 8px 32px;
+  
   transform: translateY(20px);
-  opacity: 0;
-  transition: transform 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), opacity 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+  opacity: 100%;
+  transition: transform 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), opacity 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s; 
+
+}
+
 
 .in .sidenav-content {
   transform: translateY(0);
@@ -448,7 +460,7 @@ a:hover {
     background: #000; }
 
 #gtco-special-dishes h3 span {
-  color: #f34949; }
+  color: #FF8C00; }
 
 .dishes-text {
   padding-left: 90px; }
@@ -511,7 +523,7 @@ a:hover {
     background: #000; }
 
 #gtco-special-dishes h3 span {
-  color: #f34949; }
+  color: #FF8C00; }
 
 .dishes-text {
   padding-left: 75px; }
@@ -568,3 +580,22 @@ a:hover {
     height: 500px; } }
 
 /*=====  End of RESPONSIVE  ======*/
+
+
+
+
+/*Code for Modal (temp code)*/
+.modal-backdrop.show {
+  opacity: 70% !important;
+  
+}
+
+.modal-header{
+    background: #FF8C00;
+    color: white;
+}
+
+.left-column-day{
+  width: 90px;
+  display: inline-block;
+}
